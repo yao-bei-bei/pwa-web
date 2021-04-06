@@ -7,7 +7,7 @@
   "theme_color": "#3eaf7c",
   "icons": [
     {
-      "src": "/youhun.jpg",
+      "src": "/favicon.ico",
       "sizes": "120x120",
       "type": "image/png"
     }
