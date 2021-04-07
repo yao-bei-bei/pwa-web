@@ -1,17 +1,28 @@
-importScripts('https://storage.googleapis.com/workbox-cdn/releases/3.1.0/workbox-sw.js');
-var cacheStorageKey = 'minimal-pwa-1'
+importScripts('workbox.js');
+var cacheStorageKey = 'minimal-pwa-2'
 var cacheList=[
     '/',
-    'favicon.ico',
+    'favicon.png',
     'index.html',
 ]
-self.addEventListener('install',e =>{
+self.addEventListener('install', function(e) {
+    console.log('Cache event!')
+    // waitUntil用于在安装成功之前做一些预装逻辑
+    // 安装内容建议轻量级，避免安装失败
     e.waitUntil(
-        caches.open(cacheStorageKey)
-            .then(cache => cache.addAll(cacheList))
-            .then(() => self.skipWaiting())
+        // 使用 cache API 打开指定的 cache 文件
+        caches.open(cacheStorageKey).then(function(cache) {
+            console.log('Adding to Cache:', cacheList)
+            // 添加要缓存的文件
+            // 缓存文件全部安装成功后，installing会变成installed，安装失败进入redundant状态
+            return cache.addAll(cacheList)
+        }).then(function() {
+            // 跳过waiting,直接进入active
+            console.log('Skip waiting!')
+            return self.skipWaiting()
+        })
     )
-})
+});
 self.addEventListener('fetch',function(e){
     e.respondWith(
         caches.match(e.request).then(function(response){
