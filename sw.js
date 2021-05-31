@@ -1,6 +1,6 @@
 // importScripts('./workbox.js');
 var cacheName = 'my-cache-1'
-var cacheList = ['cache1.css', 'cache1.js','favicon.png']
+var cacheList = ['cache1.css', 'cache1.js','tq.png']
 self.addEventListener('install', function(event) {
   event.waitUntil(
     // 安装成功后向caches中存入需要缓存的文件  
