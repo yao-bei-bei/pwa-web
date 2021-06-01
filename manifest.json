@@ -1,15 +1,20 @@
 {
-  "name": "一个PWA示例",
-  "short_name": "PWA示例",
-  "start_url": "/index.html",
-  "display": "standalone",
-  "background_color": "#fff",
-  "theme_color": "#3eaf7c",
-  "icons": [
+  "name": "PWA-DEMO",   //项目主名称
+  "short_name": "DEMO",   //项目小名
+  "icons": [   //设置你需要的logo图标，我这里随便找了一张
     {
-      "src": "/favicon.png",
-      "sizes": "120x120",
+      "src": "./timg.jpg",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "./timg.jpg",
+      "sizes": "512x512",
       "type": "image/png"
     }
-  ]
+  ],
+  "start_url": "./index.html",    //启动页面
+  "display": "standalone",      //启动过渡动画
+  "background_color": "#000000",    //背景颜色
+  "theme_color": "#4DBA87"    //导航栏颜色
 }
