@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.d1decfb891a7060b26aa10f6361f876f.js"
+  "/precache-manifest.ce12fa79b5e3f4360b6e7ffc7f8089d4.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "nipponcolor"});
