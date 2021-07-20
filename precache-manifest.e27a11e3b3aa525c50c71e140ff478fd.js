@@ -1,6 +1,6 @@
 self.__precacheManifest = [
   {
-    "revision": "c2be834a86c75f5a1b9cc6d3ca2e6c51",
+    "revision": "f2e21575efd8188b56c5e517818eec2a",
     "url": "/pwa-web/index.html"
   },
   {
@@ -8,24 +8,24 @@ self.__precacheManifest = [
     "url": "/pwa-web/img/icons/safari-pinned-tab.svg"
   },
   {
-    "revision": "544f8100f220ecc77f53845323e63d44",
-    "url": "/pwa-web/manifest.json"
+    "revision": "735ab4f94fbcd57074377afca324c813",
+    "url": "/pwa-web/robots.txt"
   },
   {
     "revision": "0609625b6df4b61b0526",
     "url": "/pwa-web/js/chunk-vendors.2398fe03.js"
   },
   {
-    "revision": "735ab4f94fbcd57074377afca324c813",
-    "url": "/pwa-web/robots.txt"
+    "revision": "544f8100f220ecc77f53845323e63d44",
+    "url": "/pwa-web/manifest.json"
   },
   {
-    "revision": "f7938239f63dfbc92da8",
-    "url": "/pwa-web/js/app.4c0dbf02.js"
+    "revision": "1cbee76dc4df872cd7af",
+    "url": "/pwa-web/js/app.6cd1f1e2.js"
   },
   {
-    "revision": "a68050aa316a9a78856cbd1ac8dafa10",
-    "url": "/pwa-web/img/icons/fuji-mountain-128x128.png"
+    "revision": "e7b06aca80396527699c7da03f378815",
+    "url": "/pwa-web/img/icons/fuji-mountain-32x32.png"
   },
   {
     "revision": "c9ffbd3c127fc4e2273d3302cd40ba6b",
@@ -40,20 +40,20 @@ self.__precacheManifest = [
     "url": "/pwa-web/img/dingdao.c0a0d9f6.png"
   },
   {
-    "revision": "058a3335d15a3eb84e7ae3707ba09620",
-    "url": "/pwa-web/img/icons/mstile-150x150.png"
+    "revision": "b89032a4a5a1879f30ba05a13947f26f",
+    "url": "/pwa-web/img/icons/msapplication-icon-144x144.png"
+  },
+  {
+    "revision": "a68050aa316a9a78856cbd1ac8dafa10",
+    "url": "/pwa-web/img/icons/fuji-mountain-128x128.png"
   },
   {
     "revision": "0a5afac7cb039c2cc0552c44ab6077f4",
     "url": "/pwa-web/img/icons/fuji-mountain-16x16.png"
   },
   {
-    "revision": "b89032a4a5a1879f30ba05a13947f26f",
-    "url": "/pwa-web/img/icons/msapplication-icon-144x144.png"
-  },
-  {
-    "revision": "e7b06aca80396527699c7da03f378815",
-    "url": "/pwa-web/img/icons/fuji-mountain-32x32.png"
+    "revision": "058a3335d15a3eb84e7ae3707ba09620",
+    "url": "/pwa-web/img/icons/mstile-150x150.png"
   },
   {
     "revision": "732389ded34cb9c52dd88271f1345af9",
@@ -80,7 +80,7 @@ self.__precacheManifest = [
     "url": "/pwa-web/css/chunk-vendors.e3e9338f.css"
   },
   {
-    "revision": "f7938239f63dfbc92da8",
+    "revision": "1cbee76dc4df872cd7af",
     "url": "/pwa-web/css/app.b820f1b6.css"
   }
 ];
