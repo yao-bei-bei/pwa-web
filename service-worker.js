@@ -15,7 +15,7 @@ importScripts("/pwa-web/workbox-v3.6.3/workbox-sw.js");
 workbox.setConfig({modulePathPrefix: "/pwa-web/workbox-v3.6.3"});
 
 importScripts(
-  "/pwa-web/precache-manifest.e27a11e3b3aa525c50c71e140ff478fd.js"
+  "/pwa-web/precache-manifest.d7bd4cea6dbd4dfd8cdb14d0e3142c0e.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "nippon-color"});
