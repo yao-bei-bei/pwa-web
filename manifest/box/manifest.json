@@ -13,7 +13,7 @@
       "type": "image/png"
     }
   ],
-  "start_url": "../../manifest/box/index.html",
+  "start_url": "../../manifest/box/",
   "display": "fullscreen",
   "background_color": "#fedfe1",
   "theme_color": "#fedfe1"
