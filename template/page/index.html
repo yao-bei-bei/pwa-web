@@ -1,6 +1,4 @@
-<%
-const page = htmlWebpackPlugin.options.pageData || {};
-%>
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -9,20 +7,20 @@ const page = htmlWebpackPlugin.options.pageData || {};
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
-  <link rel="icon" href="<%= page.icon %>">
-  <link rel="manifest" href="<%= page.manifest %>">
-  <title><%= page.title %></title>
-</head>
+  <link rel="icon" href="../../manifest/page/favicon.ico">
+  <link rel="manifest" href="../../manifest/page/manifest.json">
+  <title>首页</title>
+<link href="../../css/page.3fe51d8b.css" rel="preload" as="style"><link href="../../js/chunk-vendors.ecd76ec1.js" rel="preload" as="script"><link href="../../js/page.3504fd6e.js" rel="preload" as="script"><link href="../../css/page.3fe51d8b.css" rel="stylesheet"></head>
 
 <body>
 <noscript>
-  <strong><%= page %></strong>
+  <strong>[object Object]</strong>
 </noscript>
 <div id="app">
-  <div id="<%= page.code %>"></div>
+  <div id="page"></div>
 </div>
 <!-- 生成的文件将自动注入 -->
-</body>
+<script type="text/javascript" src="../../js/chunk-vendors.ecd76ec1.js"></script><script type="text/javascript" src="../../js/app.19ccf687.js"></script><script type="text/javascript" src="../../js/page.3504fd6e.js"></script></body>
 <script>
   // 可以这么注册 Service Worker
   console.log(123)
