@@ -13,7 +13,7 @@
       "type": "image/png"
     }
   ],
-  "start_url": "./pwa-web/index.html",
+  "start_url": "../../pwa-web/index.html",
   "display": "fullscreen",
   "background_color": "#fedfe1",
   "theme_color": "#fedfe1"
