@@ -2,7 +2,7 @@
   if (navigator.serviceWorker) {
     // 注册Service Worker scope表示作用的页面的path
     // register函数返回Promise
-    navigator.serviceWorker.register('manifest/service-worker.js')
+    navigator.serviceWorker.register('../../service-worker.js')
       .then(function (registration) {
         console.log(registration);
       })
